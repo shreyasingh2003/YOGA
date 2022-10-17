@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --main-bg-color: rgb(188, 188, 42);
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Josefin Sans", sans-serif;
+
+  height: 5vh;
+  width: 100vw;
+
+  padding: 2px 9px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+nav {
+  display: flex;
+  /* space between kiya jiise mere 1content start 2nd center logo or 3rd last corner */
+  justify-content: space-between;
+  align-items:center;
+  height: 100%;
+  width: 100%;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 20px;
+  padding: 0 30px;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+nav ul li {
+  list-style: none;
+  padding: 0px 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.hidden{
+  display: none;
+}
+div >h1{
+  text-align: center;
+  
+  font-size: 40px;
+}
+nav ul {
+  display: none;
+}
+nav ul li a:hover {
+  color: aquamarine;
+  font-weight: bolder;
+  display: none;
+}
+
+h1 {
+
+color:coral;
+font-size:30%;
